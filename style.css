@@ -1,0 +1,62 @@
+body{
+    background-color: indigo;
+    display: flex;
+    justify-content:center;
+}
+
+#container{
+    background-image:url('Ass/BCK.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+}
+
+#content h1, h2, p{
+    display: flex;
+    justify-content:center;
+    color: #ffffff;
+}
+
+#guthib{
+    color:#ffffff;
+}
+
+#bodyButtons a{
+    color: #000000;
+    margin: 10px 0 10px 0;
+    border: solid white 2px;
+    text-decoration: none;
+    align-self: center;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    border-radius:5px;
+    padding: 10px 0 10px 0;
+}
+
+#header img{
+    border-radius:70px;
+    height: 10%;
+}
+
+#bodyButtons{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer a{
+margin-left: 48%;
+}
+
+@media only screen and (max-width: 420px) {
+  body{
+    display: flex;
+    justify-content: normal;
+  }
+}
